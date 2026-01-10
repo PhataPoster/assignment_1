@@ -182,7 +182,7 @@ header nav ul li a:hover {
     line-height: 29px;
 }
 
-.card-design p {
+p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -197,4 +197,72 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.knowledge-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    margin: 120px;
+}
+
+.image-section {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.knowledge-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.knowledge-header ,.knowledge-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* .knowledge-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+} */
+.knowledge-list-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:6px;
+    margin-bottom: 16px;
+}
+
+.knowledge-header h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #30B868;
+}
+
+.knowledge-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
 }
