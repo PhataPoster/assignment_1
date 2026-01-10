@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+    /* border: #000000 1px solid; */
+}
+
+.nav-logo img {
+    width: 139px;
+    height: 60px;
+}
+
+header nav ul {
+    display: block;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+header nav ul li a:hover {
+    background-color: #30B868;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+}
+.btn-odd {
+    background-color: transparent;
+    color: #30B868;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    font-weight: 600;
+}
+.btn-odd:hover {
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #30B868;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #116c35;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: url("../B13-A01-Knowledge-Vault-main/B13-A01-Knowledge-Vault-main/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.banner h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    padding: 8px 12px;
+    color: #30B868;
+}
+.white-part{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    
+}
+.green-part{
+    display: block;
+    color: #30B868;
+    font-size: 72px;
+    font-weight: 700;
+    
+}
+.banner p {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+}
