@@ -354,14 +354,7 @@ p {
     padding: 80px 120px 0px 120px; */
     background-color: #02063e;
 }
- .footer-main-section{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 80px; */
-    
-} 
+ 
 .footer-logo-media{
     display: flex;
     flex-direction: row;
@@ -405,4 +398,14 @@ p {
 .media-icons img{
     width: 16px;
     height: 16px;
+}
+.footer-text{
+    padding:0px 120px 0px 120px;
+}
+.footer-text p{
+    padding-top: 40px;
+    opacity: 0.5;
+}
+.footer-text hr{
+    opacity: 0.2;
 }
